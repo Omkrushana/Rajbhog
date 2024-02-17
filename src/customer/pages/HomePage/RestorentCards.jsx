@@ -5,11 +5,14 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 
 const RestorentCards = ({ item , index}) => {
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
+  const handleAddToFavorites = ()=>{
+    console.log("Handle add to fav >>>>>>>")
+  }
   return (
     <Card className="m-5 w-[18rem] productCard">
       <div
-        // onClick={navigate(`/restaurant/${item.city}/${item.name}/${item.id}`)}
+        onClick={()=>navigate(`/restaurant/${item.city}/${item.name}/${index+1}`)}
       >
         <img
           className="w-full h-[10rem] rounded-t-md object-cover"
@@ -27,7 +30,7 @@ const RestorentCards = ({ item , index}) => {
           </p>
         </div>
         <div>
-          <IconButton>{index%2 === 0?<FavoriteIcon color="primary"/>:<FavoriteBorderIcon/>}</IconButton>
+          <IconButton onClick={handleAddToFavorites}>{index%2 === 0?<FavoriteIcon color="primary"/>:<FavoriteBorderIcon/>}</IconButton>
         </div>
       </div>
     </Card>

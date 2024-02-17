@@ -50,7 +50,7 @@ export const restaurants = [
       "Experience the art of Japanese cuisine at Tokyo Fusion. Our chefs craft each dish with precision and creativity, bringing the authentic flavors of Tokyo to your table.",
   },
   {
-    imageUrl: "https://example.com/restaurant6.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIP.X1XnAdh3GjJ8_mYnJOYx6gHaFj?rs=1&pid=ImgDetMain",
     name: "Cafe Parisienne",
     rating: 4.4,
     city: "Paris",
@@ -59,7 +59,7 @@ export const restaurants = [
       "Transport yourself to the charming streets of Paris at Cafe Parisienne. Indulge in the finest French cuisine and savor the romantic atmosphere of a classic Parisian cafe.",
   },
   {
-    imageUrl: "https://example.com/restaurant7.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIP.jY7cjlPmytF1wEGvHIO4NQHaE8?rs=1&pid=ImgDetMain",
     name: "Taco Haven",
     rating: 4.1,
     city: "Mexico City",
@@ -68,7 +68,7 @@ export const restaurants = [
       "Taco Haven brings the vibrant and bold flavors of Mexico City to your plate. Enjoy a fiesta of tacos, enchiladas, and other Mexican delights in a lively atmosphere.",
   },
   {
-    imageUrl: "https://example.com/restaurant8.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIP.X1XnAdh3GjJ8_mYnJOYx6gHaFj?rs=1&pid=ImgDetMain",
     name: "Zen Sushi",
     rating: 4.6,
     city: "Kyoto",
@@ -77,7 +77,7 @@ export const restaurants = [
       "Embark on a culinary journey through the flavors of Japan at Zen Sushi. Our expert sushi chefs craft exquisite rolls and sashimi, offering a taste of traditional Japanese artistry.",
   },
   {
-    imageUrl: "https://example.com/restaurant9.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIP.jY7cjlPmytF1wEGvHIO4NQHaE8?rs=1&pid=ImgDetMain",
     name: "BBQ Bonanza",
     rating: 4.3,
     city: "Austin",
@@ -86,7 +86,7 @@ export const restaurants = [
       "BBQ Bonanza is a haven for barbecue enthusiasts. Indulge in smoky, flavorful meats slow-cooked to perfection, and experience the true essence of Texas-style barbecue.",
   },
   {
-    imageUrl: "https://example.com/restaurant10.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIP.X1XnAdh3GjJ8_mYnJOYx6gHaFj?rs=1&pid=ImgDetMain",
     name: "Greek Isles Taverna",
     rating: 4.5,
     city: "Athens",
@@ -95,7 +95,7 @@ export const restaurants = [
       "Transport yourself to the picturesque Greek Isles at Greek Isles Taverna. Savor the authentic flavors of Greece with our traditional dishes and warm Mediterranean ambiance.",
   },
   {
-    imageUrl: "https://example.com/restaurant11.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIP.jY7cjlPmytF1wEGvHIO4NQHaE8?rs=1&pid=ImgDetMain",
     name: "Seoul Spice House",
     rating: 4.7,
     city: "Seoul",
@@ -104,7 +104,7 @@ export const restaurants = [
       "Seoul Spice House invites you to experience the bold and savory flavors of Korean cuisine. Enjoy a fusion of traditional and modern Korean dishes in a vibrant setting.",
   },
   {
-    imageUrl: "https://example.com/restaurant12.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIP.X1XnAdh3GjJ8_mYnJOYx6gHaFj?rs=1&pid=ImgDetMain",
     name: "Rustic Pizzeria",
     rating: 4.2,
     city: "Rome",
@@ -113,7 +113,7 @@ export const restaurants = [
       "Rustic Pizzeria captures the essence of authentic Italian pizza. Our wood-fired oven creates crispy crusts topped with the finest ingredients, delivering a taste of Rome in every bite.",
   },
   {
-    imageUrl: "https://example.com/restaurant13.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIP.jY7cjlPmytF1wEGvHIO4NQHaE8?rs=1&pid=ImgDetMain",
     name: "Vegan Delights",
     rating: 4.6,
     city: "Berlin",
@@ -122,7 +122,7 @@ export const restaurants = [
       "Vegan Delights is a haven for plant-based enthusiasts. Our menu features creative and flavorful vegan dishes that showcase the diversity and deliciousness of plant-based cuisine.",
   },
   {
-    imageUrl: "https://example.com/restaurant14.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIP.X1XnAdh3GjJ8_mYnJOYx6gHaFj?rs=1&pid=ImgDetMain",
     name: "Thai Orchid",
     rating: 4.4,
     city: "Bangkok",
@@ -131,7 +131,7 @@ export const restaurants = [
       "Indulge in the aromatic and spicy flavors of Thailand at Thai Orchid. Our chefs bring the authenticity of Thai cuisine to your table, offering a true taste of Bangkok.",
   },
   {
-    imageUrl: "https://example.com/restaurant15.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIP.jY7cjlPmytF1wEGvHIO4NQHaE8?rs=1&pid=ImgDetMain",
     name: "Spanish Tapas Lounge",
     rating: 4.3,
     city: "Barcelona",
