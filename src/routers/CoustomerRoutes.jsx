@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import HomePage from "../customer/pages/HomePage/HomePage";
 import Restaurent from "../customer/pages/Restaurant/Restaurant";
 import Navbar from "../customer/components/Navbar/Navbar";
+import Cart from "../customer/pages/Cart/Cart";
 
 const CoustomerRoutes = () => {
   return (
@@ -13,6 +14,7 @@ const CoustomerRoutes = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/restaurant/:city/:title/:id" element={<Restaurent />} />
+        <Route path="/cart" element={<Cart/>} />
       </Routes>
     </div>
   );
