@@ -20,7 +20,7 @@ const MenuItemCard = (item) => {
         aria-controls="panel1-content"
         id="panel1-header"
       >
-      <Card className="p-5 lg:flex items-center justify-between box">
+      <div className="p-5 lg:flex items-center justify-between box">
         <div className="lg:flex items-center lg:space-x-5">
           <img
             className="w-[7rem] h-[7rem] object-cover"
@@ -36,7 +36,7 @@ const MenuItemCard = (item) => {
         <div>
           <Button onClick={handleAddToCart}>Add to cart</Button>
         </div>
-      </Card>
+      </div>
       </AccordionSummary>
       
     </Accordion>

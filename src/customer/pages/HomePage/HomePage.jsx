@@ -11,7 +11,8 @@ const HomePage = () => {
         <div className="w-[50vw] z-10 text-center">
           <p className="text-2xl lg:text-7xl font-bold z-10 py-5">Rajbhog</p>
           <p className="z-10 text-gray-300 text-xl lg:text-4xl">
-            Test the soal: Dine-in, Fast food, Instat delivery.
+            A Culinary Soiree of Dine-In, Fast Food,
+            and Instant Delivery!
           </p>
         </div>
         <div className="cover absolute top-0 left-0 right-0"></div>
@@ -31,8 +32,9 @@ const HomePage = () => {
             Order From Our Handpicked Favourites
           </h1>
           <div className="flex flex-wrap items-center justify-around">
-          
-            {restaurants.map((item,index)=> <RestorentCards item ={item} index={index}/>)}
+            {restaurants.map((item, index) => (
+              <RestorentCards item={item} index={index} />
+            ))}
           </div>
         </div>
       </section>

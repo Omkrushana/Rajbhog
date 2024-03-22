@@ -30,8 +30,8 @@ const Restaurant = (item, index) => {
   const [selectedCategory, setSelectedCategory] = useState();
   const [selectedFoodType, setSelectedFoodType] = useState();
 
-  const handleFoodTypeChange = () => {
-    console.log("selected foodType", selectedFoodType);
+  const handleFoodTypeChange = (e) => {
+    console.log("selected foodType", selectedFoodType,e.target.value, e.target.name);
   };
   const handleCategoryChange = () => {
     console.log("selected category", selectedCategory);
