@@ -4,7 +4,7 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { IconButton } from "@mui/material";
 import PersonIcon from "@mui/icons-material/Person";
 import "./Navbar.css";
-
+import icon from './Indian restaurant rajbhog.png';
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import { useNavigate } from "react-router-dom";
@@ -34,6 +34,9 @@ const Navbar = () => {
           className="lg:mr-10 cursor-pointer flex items-center space-x-4"
           onClick={() => navigate("/")}
         >
+          <div className="navbar-logo">
+            <img src={icon} alt="Website Icon" className="logo"/>
+          </div>
           <li className="logo font-semibold text-gray-300 text-2xl">
             Rajbog Food
           </li>
@@ -72,7 +75,7 @@ const Navbar = () => {
           <MenuItem onClick={handelLogout}>Logout</MenuItem>
         </Menu>
 
-        <IconButton onClick={()=> navigate("/cart")}>
+        <IconButton onClick={() => navigate("/cart")}>
           <ShoppingCartIcon sx={{ fontSize: "1.5rem" }} />
         </IconButton>
       </div>
